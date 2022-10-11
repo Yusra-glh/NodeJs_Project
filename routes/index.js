@@ -21,5 +21,6 @@ router.post('/authenticate', actions.authenticate)
 //@desc get user's info 
 //@route get /getinfo
 router.get('/getinfo', actions.getinfo)
+//commit
 
 module.exports=router
